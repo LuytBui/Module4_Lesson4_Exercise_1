@@ -19,5 +19,21 @@
         <td>${contactNumber}</td>
     </tr>
 </table>
+<br>
+<p>Cach 2</p>
+<table>
+    <tr>
+        <td>Name:</td>
+        <td>${employee.name}</td>
+    </tr>
+    <tr>
+        <td>ID:</td>
+        <td>${employee.id}</td>
+    </tr>
+    <tr>
+        <td>Contact Number:</td>
+        <td>${employee.contactNumber}</td>
+    </tr>
+</table>
 </body>
 </html>

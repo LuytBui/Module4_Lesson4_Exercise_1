@@ -22,6 +22,7 @@ public class EmployeeController {
         model.addAttribute("name", employee.getName());
         model.addAttribute("contactNumber", employee.getContactNumber());
         model.addAttribute("id", employee.getId());
+        model.addAttribute("employee", employee);
         return "employee/info";
     }
 }
